@@ -3,15 +3,37 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Giftastic Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="container">
+
+        <div class="row" id="buttons"></div>
+
+        <div class="row">
+
+            <div class="col" id="gifDisplay"></div>
+
+            <div class="col" id="newInput">
+
+                <form>
+                    <div class="form-group">
+                        <label for="sportInput">Enter a new sport</label>
+                        <input type="text" class="form-control" id="sportInput" placeholder="soccer, tennis, etc.">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2" id="sportSub">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
 </body>
-<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
 
 </html>
