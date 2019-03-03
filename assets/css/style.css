@@ -1,0 +1,9 @@
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.sports {
+    display: inline-block;
+    margin: 4px;
+}
